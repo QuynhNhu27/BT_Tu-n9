@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgTkweb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff1f5" />
+      <stop offset="50%" stop-color="#fdf2f8" />
+      <stop offset="100%" stop-color="#f3e8ff" />
+    </linearGradient>
+    <filter id="tkwebShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#c084fc" flood-opacity="0.18" />
+    </filter>
+  </defs>
+  <rect width="800" height="500" rx="20" fill="url(#bgTkweb)" />
+
+  <g transform="translate(60, 45)" filter="url(#tkwebShadow)">
+    <rect width="680" height="410" rx="16" fill="#ffffff" />
+    <!-- Browser Top Bar -->
+    <rect width="680" height="42" rx="16" fill="#fcf7fb" />
+    <path d="M 0 28 L 680 28 L 680 42 L 0 42 Z" fill="#fcf7fb" />
+    <circle cx="28" cy="21" r="6" fill="#fb7185" />
+    <circle cx="48" cy="21" r="6" fill="#fcd34d" />
+    <circle cx="68" cy="21" r="6" fill="#4ade80" />
+    <rect x="110" y="9" width="460" height="24" rx="12" fill="#ffffff" stroke="#f3d8e6" stroke-width="1.5" />
+    <text x="340" y="25" font-family="'Roboto', sans-serif" font-size="11" fill="#9333ea" text-anchor="middle">https://github.com/QuynhNhu27/TKWeb - Môn Thiết Kế Web LHU</text>
+
+    <!-- Code Editor UI Mockup -->
+    <g transform="translate(30, 65)">
+      <!-- Sidebar / File Explorer -->
+      <rect width="180" height="320" rx="12" fill="#faf5f8" stroke="#f5d0e3" stroke-width="1" />
+      <rect x="16" y="16" width="90" height="14" rx="7" fill="#e9d5ff" />
+      <text x="22" y="27" font-family="'Roboto', sans-serif" font-size="10" font-weight="700" fill="#7e22ce">📁 TKWeb</text>
+      <text x="32" y="55" font-family="'Roboto', sans-serif" font-size="11" fill="#e11d48">📄 index.html</text>
+      <text x="32" y="80" font-family="'Roboto', sans-serif" font-size="11" fill="#6b7280">📄 style.css</text>
+      <text x="32" y="105" font-family="'Roboto', sans-serif" font-size="11" fill="#6b7280">📁 assets/</text>
+      <text x="32" y="130" font-family="'Roboto', sans-serif" font-size="11" fill="#6b7280">📄 README.md</text>
+
+      <!-- Code Workspace -->
+      <g transform="translate(200, 0)">
+        <rect width="420" height="320" rx="12" fill="#fffbfc" stroke="#fce7f3" stroke-width="1" />
+        <!-- Code Tab -->
+        <rect x="0" y="0" width="140" height="34" rx="10" fill="#ffffff" stroke="#fbcfe8" stroke-width="1" />
+        <text x="20" y="22" font-family="'Roboto', sans-serif" font-size="11" font-weight="600" fill="#e11d48">index.html ×</text>
+        
+        <!-- Code Lines -->
+        <g transform="translate(20, 50)" font-family="'Roboto', monospace" font-size="12">
+          <text x="0" y="20" fill="#db2777">&lt;!DOCTYPE html&gt;</text>
+          <text x="0" y="45" fill="#7e22ce">&lt;html <tspan fill="#d97706">lang="vi"</tspan>&gt;</text>
+          <text x="15" y="70" fill="#7e22ce">&lt;head&gt;</text>
+          <text x="30" y="95" fill="#2563eb">&lt;title&gt;<tspan fill="#374151">Thiết Kế Web - LHU</tspan>&lt;/title&gt;</text>
+          <text x="15" y="120" fill="#7e22ce">&lt;/head&gt;</text>
+          <text x="15" y="145" fill="#7e22ce">&lt;body&gt;</text>
+          <text x="30" y="170" fill="#2563eb">&lt;h1&gt;<tspan fill="#be123c">Bài Tập Thực Hành Web</tspan>&lt;/h1&gt;</text>
+          <text x="30" y="195" fill="#2563eb">&lt;p&gt;<tspan fill="#4b5563">Sinh viên: Trần Thị Quỳnh Như</tspan>&lt;/p&gt;</text>
+          <text x="15" y="220" fill="#7e22ce">&lt;/body&gt;</text>
+          <text x="0" y="245" fill="#7e22ce">&lt;/html&gt;</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

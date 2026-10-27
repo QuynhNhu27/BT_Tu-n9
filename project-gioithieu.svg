@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGioithieu" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff7ed" />
+      <stop offset="50%" stop-color="#fff1f2" />
+      <stop offset="100%" stop-color="#fdf4ff" />
+    </linearGradient>
+    <filter id="gtShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#fb7185" flood-opacity="0.18" />
+    </filter>
+  </defs>
+  <rect width="800" height="500" rx="20" fill="url(#bgGioithieu)" />
+
+  <g transform="translate(60, 45)" filter="url(#gtShadow)">
+    <rect width="680" height="410" rx="16" fill="#ffffff" />
+    <!-- Browser Top Bar -->
+    <rect width="680" height="42" rx="16" fill="#fff9f8" />
+    <path d="M 0 28 L 680 28 L 680 42 L 0 42 Z" fill="#fff9f8" />
+    <circle cx="28" cy="21" r="6" fill="#fb7185" />
+    <circle cx="48" cy="21" r="6" fill="#fcd34d" />
+    <circle cx="68" cy="21" r="6" fill="#4ade80" />
+    <rect x="110" y="9" width="460" height="24" rx="12" fill="#ffffff" stroke="#fed7aa" stroke-width="1.5" />
+    <text x="340" y="25" font-family="'Roboto', sans-serif" font-size="11" fill="#ea580c" text-anchor="middle">https://github.com/QuynhNhu27/GioiThieuu - Trang Giới Thiệu Cá Nhân</text>
+
+    <!-- Web Page Showcase -->
+    <g transform="translate(40, 70)">
+      <!-- Navbar of Mockup -->
+      <rect width="600" height="46" rx="10" fill="#fff7ed" stroke="#fed7aa" stroke-width="1" />
+      <text x="24" y="28" font-family="'Roboto', sans-serif" font-weight="800" font-size="14" fill="#c2410c">🌸 Quỳnh Như - Giới Thiệu</text>
+      <text x="380" y="28" font-family="'Roboto', sans-serif" font-size="11" font-weight="600" fill="#ea580c">Trang Chủ</text>
+      <text x="460" y="28" font-family="'Roboto', sans-serif" font-size="11" fill="#64748b">Bản Thân</text>
+      <text x="535" y="28" font-family="'Roboto', sans-serif" font-size="11" fill="#64748b">Liên Hệ</text>
+
+      <!-- Hero Card inside Mockup -->
+      <g transform="translate(0, 65)">
+        <rect width="600" height="180" rx="14" fill="#fff5f5" stroke="#fecdd3" stroke-width="1" />
+        <circle cx="90" cy="90" r="50" fill="#fce7f3" stroke="#f472b6" stroke-width="2" />
+        <text x="90" y="98" font-size="34" text-anchor="middle">👩‍🎓</text>
+        
+        <text x="170" y="60" font-family="'Roboto', sans-serif" font-weight="800" font-size="20" fill="#9f1239">Trần Thị Quỳnh Như</text>
+        <text x="170" y="85" font-family="'Roboto', sans-serif" font-weight="600" font-size="13" fill="#e11d48">Sinh viên Khoa Công nghệ Thông tin - ĐH Lạc Hồng</text>
+        <text x="170" y="112" font-family="'Roboto', sans-serif" font-size="12" fill="#4b5563">Trang web thực hành giới thiệu bản thân và học tập cấu trúc HTML/CSS.</text>
+        
+        <rect x="170" y="130" width="110" height="26" rx="13" fill="#ea580c" />
+        <text x="225" y="147" font-family="'Roboto', sans-serif" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">GitHub Repo</text>
+      </g>
+
+      <!-- Mini badges -->
+      <g transform="translate(0, 265)">
+        <rect x="0" y="0" width="185" height="38" rx="8" fill="#fdf2f8" stroke="#fbcfe8" stroke-width="1" />
+        <text x="92" y="24" font-family="'Roboto', sans-serif" font-size="11" font-weight="700" fill="#be185d" text-anchor="middle">HTML5 Cơ Bản</text>
+
+        <rect x="207" y="0" width="185" height="38" rx="8" fill="#fff7ed" stroke="#fed7aa" stroke-width="1" />
+        <text x="299" y="24" font-family="'Roboto', sans-serif" font-size="11" font-weight="700" fill="#c2410c" text-anchor="middle">CSS Định Dạng</text>
+
+        <rect x="415" y="0" width="185" height="38" rx="8" fill="#faf5ff" stroke="#e9d5ff" stroke-width="1" />
+        <text x="507" y="24" font-family="'Roboto', sans-serif" font-size="11" font-weight="700" fill="#7e22ce" text-anchor="middle">Mã Nguồn Mở</text>
+      </g>
+    </g>
+  </g>
+</svg>

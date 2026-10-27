@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="favGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8bbd0" />
+      <stop offset="50%" stop-color="#e1bee7" />
+      <stop offset="100%" stop-color="#ffe0b2" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="url(#favGrad)" />
+  <circle cx="32" cy="32" r="22" fill="#ffffff" opacity="0.9" />
+  <!-- Monogram QN in cute font -->
+  <text x="32" y="39" font-family="'Roboto', 'Segoe UI', sans-serif" font-weight="800" font-size="20" fill="#c45b85" text-anchor="middle">QN</text>
+  <circle cx="44" cy="22" r="4" fill="#ffd166" />
+</svg>

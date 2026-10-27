@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde2e4" />
+      <stop offset="50%" stop-color="#e8dff5" />
+      <stop offset="100%" stop-color="#fff1e6" />
+    </linearGradient>
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3d2b3d" />
+      <stop offset="100%" stop-color="#5a3d54" />
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff5eb" />
+      <stop offset="100%" stop-color="#ffe8d6" />
+    </linearGradient>
+    <linearGradient id="hoodieGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8bbd0" />
+      <stop offset="50%" stop-color="#e1bee7" />
+      <stop offset="100%" stop-color="#d1c4e9" />
+    </linearGradient>
+    <linearGradient id="laptopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#ede7f6" />
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a2840" />
+      <stop offset="100%" stop-color="#2c1827" />
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#e07a97" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background Circle with Soft Glow -->
+  <circle cx="256" cy="256" r="230" fill="url(#bgGrad)" filter="url(#softGlow)" />
+  <circle cx="256" cy="256" r="215" fill="none" stroke="#ffffff" stroke-width="6" stroke-dasharray="12 8" opacity="0.8" />
+
+  <!-- Floating Tech / Sparkle Icons -->
+  <!-- Left Star -->
+  <path d="M 85 160 Q 95 180 115 190 Q 95 200 85 220 Q 75 200 55 190 Q 75 180 85 160 Z" fill="#ffd166" />
+  <!-- Right Sparkle -->
+  <path d="M 420 140 Q 430 155 445 165 Q 430 175 420 190 Q 410 175 395 165 Q 410 155 420 140 Z" fill="#ffb4a2" />
+  <!-- Code Tag Badge Floating -->
+  <rect x="50" y="270" width="80" height="34" rx="17" fill="#ffffff" filter="url(#softGlow)" />
+  <text x="90" y="293" font-family="'Roboto', sans-serif" font-weight="700" font-size="14" fill="#c45b85" text-anchor="middle">&lt;/&gt; Code</text>
+  <!-- LHU Badge Floating -->
+  <rect x="375" y="280" width="85" height="34" rx="17" fill="#ffffff" filter="url(#softGlow)" />
+  <text x="417" y="303" font-family="'Roboto', sans-serif" font-weight="700" font-size="13" fill="#8e5ea2" text-anchor="middle">🎓 LHU</text>
+
+  <!-- Hair Back -->
+  <ellipse cx="256" cy="220" rx="130" ry="145" fill="url(#hairGrad)" />
+  <!-- Hair Tail / Flow Left & Right -->
+  <path d="M 140 230 C 120 330 150 420 190 450 C 160 410 150 320 170 240 Z" fill="url(#hairGrad)" />
+  <path d="M 372 230 C 392 330 362 420 322 450 C 352 410 362 320 342 240 Z" fill="url(#hairGrad)" />
+
+  <!-- Body / Hoodie -->
+  <path d="M 150 490 C 160 375 205 350 256 350 C 307 350 352 375 362 490 Z" fill="url(#hoodieGrad)" />
+  <!-- Hoodie Collar / Drawstrings -->
+  <path d="M 215 355 C 235 385 277 385 297 355 C 310 395 202 395 215 355 Z" fill="#f8bbd0" />
+  <line x1="240" y1="380" x2="235" y2="425" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+  <line x1="272" y1="380" x2="277" y2="425" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Neck -->
+  <path d="M 232 305 L 232 360 C 244 366 268 366 280 360 L 280 305 Z" fill="#ffe0cc" />
+
+  <!-- Head / Face -->
+  <path d="M 180 230 C 180 310 220 335 256 335 C 292 335 332 310 332 230 C 332 170 292 145 256 145 C 220 145 180 170 180 230 Z" fill="url(#skinGrad)" />
+
+  <!-- Blush / Cheeks -->
+  <circle cx="205" cy="265" r="14" fill="#ffb4a2" opacity="0.6" />
+  <circle cx="307" cy="265" r="14" fill="#ffb4a2" opacity="0.6" />
+
+  <!-- Cute Eyes -->
+  <circle cx="218" cy="245" r="9" fill="#2d1d29" />
+  <circle cx="294" cy="245" r="9" fill="#2d1d29" />
+  <circle cx="215" cy="242" r="3.5" fill="#ffffff" />
+  <circle cx="291" cy="242" r="3.5" fill="#ffffff" />
+  <circle cx="221" cy="247" r="1.5" fill="#ffffff" />
+  <circle cx="297" cy="247" r="1.5" fill="#ffffff" />
+
+  <!-- Eyebrows -->
+  <path d="M 205 230 C 215 224 228 226 232 230" stroke="#3d2b3d" stroke-width="3" stroke-linecap="round" fill="none" />
+  <path d="M 307 230 C 297 224 284 226 280 230" stroke="#3d2b3d" stroke-width="3" stroke-linecap="round" fill="none" />
+
+  <!-- Nose -->
+  <path d="M 254 255 Q 256 260 258 255" stroke="#e07a97" stroke-width="2.5" stroke-linecap="round" fill="none" />
+
+  <!-- Gentle Sweet Smile -->
+  <path d="M 242 276 Q 256 290 270 276" stroke="#c45b85" stroke-width="3" stroke-linecap="round" fill="none" />
+
+  <!-- Stylish Glasses (Cute pastel wireframe) -->
+  <rect x="195" y="225" width="45" height="38" rx="14" fill="none" stroke="#c45b85" stroke-width="3.5" opacity="0.85" />
+  <rect x="272" y="225" width="45" height="38" rx="14" fill="none" stroke="#c45b85" stroke-width="3.5" opacity="0.85" />
+  <path d="M 240 242 C 248 238 264 238 272 242" fill="none" stroke="#c45b85" stroke-width="3.5" />
+  <path d="M 195 240 L 180 235" stroke="#c45b85" stroke-width="3.5" stroke-linecap="round" />
+  <path d="M 317 240 L 332 235" stroke="#c45b85" stroke-width="3.5" stroke-linecap="round" />
+
+  <!-- Hair Bangs / Front Hairstyle -->
+  <path d="M 175 210 C 175 140 235 120 256 120 C 290 120 337 145 337 210 C 320 180 290 170 260 175 C 230 180 200 170 175 210 Z" fill="url(#hairGrad)" />
+  <path d="M 215 174 C 235 205 250 205 260 175 C 275 210 295 205 315 174 C 330 220 330 250 335 260 C 330 240 325 210 320 200 C 300 215 280 215 260 180 C 240 215 215 215 195 200 C 190 220 185 245 177 260 Z" fill="url(#hairGrad)" />
+
+  <!-- Cute Hair Accessory / Lavender Blossom -->
+  <g transform="translate(180, 145)">
+    <circle cx="0" cy="0" r="10" fill="#e8dff5" />
+    <circle cx="-9" cy="-5" r="8" fill="#fce1e4" />
+    <circle cx="9" cy="-5" r="8" fill="#fce1e4" />
+    <circle cx="-6" cy="9" r="8" fill="#fcf4dd" />
+    <circle cx="6" cy="9" r="8" fill="#fcf4dd" />
+    <circle cx="0" cy="0" r="5" fill="#ffd166" />
+  </g>
+
+  <!-- Laptop in front -->
+  <g transform="translate(156, 390)">
+    <!-- Laptop screen back & inner -->
+    <rect x="15" y="0" width="170" height="110" rx="10" fill="url(#laptopGrad)" stroke="#d1c4e9" stroke-width="3" />
+    <rect x="25" y="10" width="150" height="90" rx="6" fill="url(#screenGrad)" />
+    <!-- Screen Code Lines -->
+    <rect x="35" y="24" width="45" height="6" rx="3" fill="#ffb4a2" />
+    <rect x="85" y="24" width="35" height="6" rx="3" fill="#ffd166" />
+    <rect x="42" y="38" width="60" height="5" rx="2.5" fill="#a0c4ff" />
+    <rect x="42" y="50" width="85" height="5" rx="2.5" fill="#caffbf" />
+    <rect x="52" y="62" width="70" height="5" rx="2.5" fill="#fdffb6" />
+    <rect x="42" y="74" width="40" height="5" rx="2.5" fill="#bdb2ff" />
+    <!-- Cute heart logo on laptop bottom back or keyboard base -->
+    <path d="M 0 108 L 200 108 L 210 120 L -10 120 Z" fill="#ffffff" stroke="#d1c4e9" stroke-width="2" />
+    <rect x="80" y="112" width="40" height="4" rx="2" fill="#d1c4e9" />
+  </g>
+
+  <!-- Little Cute Cat or Coffee cup on side -->
+  <g transform="translate(345, 410)">
+    <path d="M 0 15 C 0 50 35 50 35 15 Z" fill="#ffffff" stroke="#f3d8e2" stroke-width="2" />
+    <path d="M 35 22 C 45 22 45 35 35 38" fill="none" stroke="#f3d8e2" stroke-width="3" />
+    <!-- Latte Art Heart -->
+    <path d="M 12 18 C 12 12 23 12 23 18 C 23 23 17.5 27 17.5 27 C 17.5 27 12 23 12 18 Z" fill="#e07a97" />
+  </g>
+</svg>

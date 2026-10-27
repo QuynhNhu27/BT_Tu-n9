@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgPort" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff5f5" />
+      <stop offset="50%" stop-color="#fdf2f8" />
+      <stop offset="100%" stop-color="#ede9fe" />
+    </linearGradient>
+    <filter id="portShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#ec4899" flood-opacity="0.15" />
+    </filter>
+  </defs>
+  <rect width="800" height="500" rx="20" fill="url(#bgPort)" />
+
+  <g transform="translate(60, 40)" filter="url(#portShadow)">
+    <rect width="680" height="420" rx="16" fill="#ffffff" />
+    <!-- Browser Header -->
+    <rect width="680" height="44" rx="16" fill="#fdf2f8" />
+    <path d="M 0 30 L 680 30 L 680 44 L 0 44 Z" fill="#fdf2f8" />
+    <circle cx="28" cy="22" r="6" fill="#f43f5e" />
+    <circle cx="48" cy="22" r="6" fill="#fbbf24" />
+    <circle cx="68" cy="22" r="6" fill="#34d399" />
+    <rect x="110" y="10" width="460" height="24" rx="12" fill="#ffffff" stroke="#fbcfe8" stroke-width="1.5" />
+    <text x="340" y="26" font-family="'Roboto', sans-serif" font-size="11" fill="#db2777" text-anchor="middle">https://quynhnhu27.github.io/Nhu_TranThiQuynh_125000162/</text>
+
+    <!-- Top nav bar mockup -->
+    <rect x="0" y="44" width="680" height="48" fill="#ffffff" stroke="#fff0f5" stroke-width="1" />
+    <text x="35" y="74" font-family="'Roboto', sans-serif" font-weight="800" font-size="16" fill="#9d174d">🌸 Quỳnh Như</text>
+    <text x="320" y="73" font-family="'Roboto', sans-serif" font-weight="600" font-size="11" fill="#9d174d">Trang Chủ</text>
+    <text x="390" y="73" font-family="'Roboto', sans-serif" font-weight="500" font-size="11" fill="#64748b">Giới Thiệu</text>
+    <text x="460" y="73" font-family="'Roboto', sans-serif" font-weight="500" font-size="11" fill="#64748b">Dự Án</text>
+    <text x="520" y="73" font-family="'Roboto', sans-serif" font-weight="500" font-size="11" fill="#64748b">Liên Hệ</text>
+    <rect x="580" y="55" width="65" height="26" rx="13" fill="#f472b6" />
+    <text x="612" y="72" font-family="'Roboto', sans-serif" font-weight="600" font-size="10" fill="#ffffff" text-anchor="middle">GitHub</text>
+
+    <!-- Hero Content Mockup -->
+    <g transform="translate(35, 120)">
+      <!-- Left side text -->
+      <rect x="0" y="0" width="130" height="22" rx="11" fill="#fce7f3" />
+      <text x="65" y="15" font-family="'Roboto', sans-serif" font-weight="700" font-size="9" fill="#be185d" text-anchor="middle">IT Student @ LHU</text>
+      <text x="0" y="50" font-family="'Roboto', sans-serif" font-weight="800" font-size="24" fill="#831843">Trần Thị Quỳnh Như</text>
+      <text x="0" y="78" font-family="'Roboto', sans-serif" font-weight="600" font-size="14" fill="#db2777">Frontend Developer &amp; UI/UX Designer</text>
+      <text x="0" y="105" font-family="'Roboto', sans-serif" font-size="11" fill="#64748b">Thiết kế giao diện đẹp mắt, chuẩn trải nghiệm người dùng</text>
+      <text x="0" y="122" font-family="'Roboto', sans-serif" font-size="11" fill="#64748b">và tối ưu mã nguồn theo tiêu chuẩn Semantic Web hiện đại.</text>
+
+      <rect x="0" y="145" width="115" height="32" rx="16" fill="#db2777" />
+      <text x="57" y="165" font-family="'Roboto', sans-serif" font-weight="700" font-size="11" fill="#ffffff" text-anchor="middle">Khám Phá Dự Án</text>
+      <rect x="130" y="145" width="100" height="32" rx="16" fill="#fce7f3" stroke="#fbcfe8" stroke-width="1.5" />
+      <text x="180" y="165" font-family="'Roboto', sans-serif" font-weight="700" font-size="11" fill="#9d174d" text-anchor="middle">Liên Hệ Ngay</text>
+
+      <!-- Right side avatar frame -->
+      <g transform="translate(420, -10)">
+        <circle cx="100" cy="100" r="90" fill="#fdf2f8" stroke="#f472b6" stroke-width="3" stroke-dasharray="8 6" />
+        <circle cx="100" cy="100" r="75" fill="#fce7f3" />
+        <text x="100" y="112" font-size="48" text-anchor="middle">👩‍💻</text>
+        <rect x="130" y="15" width="55" height="20" rx="10" fill="#ffffff" stroke="#f472b6" stroke-width="1" />
+        <text x="157" y="29" font-family="'Roboto', sans-serif" font-size="9" font-weight="700" fill="#db2777" text-anchor="middle">✨ Pastel</text>
+      </g>
+    </g>
+
+    <!-- Bottom Showcase Badges -->
+    <g transform="translate(35, 330)">
+      <rect x="0" y="0" width="610" height="65" rx="12" fill="#faf5ff" stroke="#f3e8ff" stroke-width="1" />
+      <text x="40" y="38" font-family="'Roboto', sans-serif" font-weight="700" font-size="12" fill="#7e22ce">HTML5 Semantic</text>
+      <text x="175" y="38" font-family="'Roboto', sans-serif" font-weight="700" font-size="12" fill="#db2777">CSS Variables</text>
+      <text x="300" y="38" font-family="'Roboto', sans-serif" font-weight="700" font-size="12" fill="#c026d3">Animate.css &amp; AOS</text>
+      <text x="460" y="38" font-family="'Roboto', sans-serif" font-weight="700" font-size="12" fill="#2563eb">GitHub Pages Ready</text>
+    </g>
+  </g>
+</svg>
